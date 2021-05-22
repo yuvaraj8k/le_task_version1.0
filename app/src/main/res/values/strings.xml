@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LeTaskApp</string>
+    <string name="label_name">Name :</string>
+    <string name="label_user_name">User Name :</string>
+    <string name="label_email">Email :</string>
+    <string name="label_phone">Phone :</string>
+    <string name="label_website">Website :</string>
+    <string name="label_street">Street :</string>
+    <string name="label_suite">Suite :</string>
+    <string name="label_city">City :</string>
+    <string name="label_zip_code">Zip Code :</string>
+    <string name="label_company_name">Company Name :</string>
+    <string name="label_catchphrase">Catchphrase :</string>
+    <string name="label_bs">bs :</string>
+</resources>
