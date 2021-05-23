@@ -43,11 +43,12 @@
                         app:layout_constraintTop_toTopOf="parent"/>
                     <androidx.appcompat.widget.AppCompatTextView
                         android:id="@+id/tv_name_value"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:paddingTop="8dp"
                         android:paddingStart="8dp"
                         android:paddingEnd="2dp"
+                        app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toEndOf="@id/tv_name_label"
                         app:layout_constraintTop_toTopOf="@id/tv_name_label"/>
 
@@ -61,16 +62,17 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@id/tv_name_label"/>
+                        app:layout_constraintTop_toBottomOf="@id/tv_name_value"/>
                     <androidx.appcompat.widget.AppCompatTextView
                         android:id="@+id/tv_user_name_value"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:paddingTop="4dp"
                         android:paddingStart="8dp"
                         android:paddingEnd="2dp"
+                        app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toEndOf="@id/tv_user_name_label"
-                        app:layout_constraintTop_toBottomOf="@id/tv_name_label"/>
+                        app:layout_constraintTop_toBottomOf="@id/tv_name_value"/>
 
                     <androidx.appcompat.widget.AppCompatTextView
                         android:id="@+id/tv_email_label"
@@ -82,16 +84,17 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@id/tv_user_name_label"/>
+                        app:layout_constraintTop_toBottomOf="@id/tv_user_name_value"/>
                     <androidx.appcompat.widget.AppCompatTextView
                         android:id="@+id/tv_email_value"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:paddingTop="4dp"
                         android:paddingStart="8dp"
                         android:paddingEnd="2dp"
+                        app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toEndOf="@id/tv_email_label"
-                        app:layout_constraintTop_toBottomOf="@id/tv_user_name_label"/>
+                        app:layout_constraintTop_toBottomOf="@id/tv_user_name_value"/>
 
                     <androidx.appcompat.widget.AppCompatTextView
                         android:id="@+id/tv_phone_label"
@@ -103,16 +106,17 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@id/tv_email_label"/>
+                        app:layout_constraintTop_toBottomOf="@id/tv_email_value"/>
                     <androidx.appcompat.widget.AppCompatTextView
                         android:id="@+id/tv_phone_value"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:paddingTop="4dp"
                         android:paddingStart="8dp"
                         android:paddingEnd="2dp"
+                        app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toEndOf="@id/tv_phone_label"
-                        app:layout_constraintTop_toBottomOf="@id/tv_email_label"/>
+                        app:layout_constraintTop_toBottomOf="@id/tv_email_value"/>
                     <androidx.appcompat.widget.AppCompatTextView
                         android:id="@+id/tv_web_label"
                         android:text="@string/label_website"
@@ -123,17 +127,18 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@id/tv_phone_label"/>
+                        app:layout_constraintTop_toBottomOf="@id/tv_phone_value"/>
                     <androidx.appcompat.widget.AppCompatTextView
                         android:id="@+id/tv_web_value"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:paddingTop="4dp"
                         android:paddingStart="8dp"
                         android:paddingEnd="2dp"
                         android:paddingBottom="8dp"
+                        app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toEndOf="@id/tv_web_label"
-                        app:layout_constraintTop_toBottomOf="@id/tv_phone_label"/>
+                        app:layout_constraintTop_toBottomOf="@id/tv_phone_value"/>
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
@@ -166,14 +171,14 @@
                         app:layout_constraintTop_toTopOf="parent"/>
                     <androidx.appcompat.widget.AppCompatTextView
                         android:id="@+id/tv_street_value"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:paddingTop="8dp"
                         android:paddingStart="8dp"
                         android:paddingEnd="2dp"
+                        app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toEndOf="@id/tv_street_label"
                         app:layout_constraintTop_toTopOf="@id/tv_street_label"/>
-
                     <androidx.appcompat.widget.AppCompatTextView
                         android:id="@+id/tv_suite_label"
                         android:text="@string/label_suite"
@@ -184,16 +189,17 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@id/tv_street_label"/>
+                        app:layout_constraintTop_toBottomOf="@id/tv_street_value"/>
                     <androidx.appcompat.widget.AppCompatTextView
                         android:id="@+id/tv_suite_value"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:paddingTop="4dp"
                         android:paddingStart="8dp"
                         android:paddingEnd="2dp"
+                        app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toEndOf="@id/tv_suite_label"
-                        app:layout_constraintTop_toBottomOf="@id/tv_street_label"/>
+                        app:layout_constraintTop_toBottomOf="@id/tv_street_value"/>
 
                     <androidx.appcompat.widget.AppCompatTextView
                         android:id="@+id/tv_city_label"
@@ -205,16 +211,17 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@id/tv_suite_label"/>
+                        app:layout_constraintTop_toBottomOf="@id/tv_suite_value"/>
                     <androidx.appcompat.widget.AppCompatTextView
                         android:id="@+id/tv_city_value"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:paddingTop="4dp"
                         android:paddingStart="8dp"
                         android:paddingEnd="2dp"
+                        app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toEndOf="@id/tv_city_label"
-                        app:layout_constraintTop_toBottomOf="@id/tv_suite_label"/>
+                        app:layout_constraintTop_toBottomOf="@id/tv_suite_value"/>
 
                     <androidx.appcompat.widget.AppCompatTextView
                         android:id="@+id/tv_zip_label"
@@ -226,36 +233,38 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@id/tv_city_label"/>
+                        app:layout_constraintTop_toBottomOf="@id/tv_city_value"/>
                     <androidx.appcompat.widget.AppCompatTextView
                         android:id="@+id/tv_zip_value"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:paddingTop="4dp"
                         android:paddingStart="8dp"
                         android:paddingEnd="2dp"
+                        app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toEndOf="@id/tv_zip_label"
-                        app:layout_constraintTop_toBottomOf="@id/tv_city_label"/>
+                        app:layout_constraintTop_toBottomOf="@id/tv_city_value"/>
                     <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:id="@+id/tv_location_label"
                         android:paddingTop="4dp"
                         android:paddingStart="8dp"
                         android:paddingEnd="2dp"
                         android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@id/tv_zip_label"/>
+                        app:layout_constraintTop_toBottomOf="@id/tv_zip_value"/>
                     <androidx.appcompat.widget.AppCompatTextView
                         android:id="@+id/tv_location_value"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:paddingTop="4dp"
                         android:paddingStart="8dp"
                         android:paddingEnd="2dp"
                         android:paddingBottom="8dp"
+                        app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toEndOf="@id/tv_location_label"
-                        app:layout_constraintTop_toBottomOf="@id/tv_zip_label"/>
+                        app:layout_constraintTop_toBottomOf="@id/tv_zip_value"/>
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
             </androidx.cardview.widget.CardView>
@@ -289,11 +298,12 @@
                         app:layout_constraintTop_toTopOf="parent"/>
                     <androidx.appcompat.widget.AppCompatTextView
                         android:id="@+id/tv_company_name_value"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:paddingTop="8dp"
                         android:paddingStart="8dp"
                         android:paddingEnd="2dp"
+                        app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toEndOf="@id/tv_company_name_label"
                         app:layout_constraintTop_toTopOf="@id/tv_company_name_label"/>
 
@@ -307,7 +317,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@id/tv_company_name_label"/>
+                        app:layout_constraintTop_toBottomOf="@id/tv_company_name_value"/>
                     <androidx.appcompat.widget.AppCompatTextView
                         android:id="@+id/tv_phrase_value"
                         android:layout_width="0dp"
@@ -317,7 +327,7 @@
                         android:paddingEnd="2dp"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toEndOf="@id/tv_phrase_label"
-                        app:layout_constraintTop_toBottomOf="@id/tv_company_name_label"/>
+                        app:layout_constraintTop_toBottomOf="@id/tv_company_name_value"/>
 
                     <androidx.appcompat.widget.AppCompatTextView
                         android:id="@+id/tv_bs_label"
@@ -329,19 +339,26 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@id/tv_phrase_label"/>
+                        app:layout_constraintTop_toBottomOf="@id/tv_phrase_value"/>
                     <androidx.appcompat.widget.AppCompatTextView
                         android:id="@+id/tv_bs_value"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:paddingTop="4dp"
                         android:paddingStart="8dp"
                         android:paddingEnd="2dp"
                         android:paddingBottom="8dp"
+                        app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toEndOf="@id/tv_bs_label"
-                        app:layout_constraintTop_toBottomOf="@id/tv_phrase_label"/>
+                        app:layout_constraintTop_toBottomOf="@id/tv_phrase_value"/>
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cv_company_detail"/>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.core.widget.NestedScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
